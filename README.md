@@ -54,3 +54,16 @@ From the CSV, you will see that the data follows a parent child structure. The f
 ]
 
 ```
+
+## Deliverables
+
+Replace the contents of this README.md with:
+
+A covering note explaining the technology choices you have made.
+
+1. Any instructions required to run your solution and tests in a Linux environment.
+2. Email as an attachment or a link the git bundled repository showing your commit history with all your commits on the master branch:
+
+```
+    git bundle create <anything>.bundle --all
+```
