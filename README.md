@@ -59,6 +59,8 @@ The main task is to convert that csv into json. If you would like to see an exam
 
 We would prefer you do the beginner task well rather than doing all three tasks rushed. Also the example file is just an example these menus can drastically vary in size (columns and rows) and your program needs to handle that. 
 
+Please separate your tasks into feature branches using git-flow. `feature/beginner feature/intermediate feature/advanced`
+
 ### Beginner
 Create a simple application that can run locally on a unix environment that has uses some sort of package management tool for your chosen language. There should be a few unit tests testing the main logic of your program.
 
