@@ -55,6 +55,11 @@ From the CSV, you will see that the data follows a parent child structure. The f
 
 ```
 ## Tasks
+The task is to convert the provided CSV into JSON (see the example for the structure desired). Examples of the structure we apply for JSON to generate these menus can be found on the main groceries pages on groceries.morrisons.com (hover over shop groceries and have a look through the different categories). The menus on these category pages follow a specific structure with nested child pages to allow customers to browse different categories of groceries.
+
+Remember that we would prefer the beginner task done well rather than all three done poorly. These menus can vary drastically in size and nesting, therefore you should remain aware of that when writing your solution and think about more columns and rows being in other CSV files that may be processed by your solution.
+
+Please separate your tasks into feature branches using git-flow. `feature/beginner feature/intermediate feature/advanced`
 
 ### Beginner
 Create a simple application that can run locally on a unix environment that has uses some sort of package management tool for your chosen language. There should be a few unit tests testing the main logic of your program.
