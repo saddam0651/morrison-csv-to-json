@@ -55,7 +55,7 @@ From the CSV, you will see that the data follows a parent child structure. The f
 
 ```
 ## Tasks
-The main task is to convert that csv into json. If you would like to see an example of the json in use to get a better understanding of the problem see : https://groceries.morrisons.com/browse/meat-fish-179549. If this link is 404 at time of reading please just browse the meny the top of the page with a banner under it. 
+The main task is to convert that csv into json. If you would like to see an example of the json in use to get a better understanding of the problem see : https://groceries.morrisons.com/browse/meat-fish-179549. If this link is 404 at time of reading please just browse the menu the top of the page with a banner under it. 
 
 We would prefer you do the beginner task well rather than doing all three tasks rushed. Also the example file is just an example these menus can drastically vary in size (columns and rows) and your program needs to handle that. 
 
