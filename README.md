@@ -17,7 +17,7 @@ Use any IDE or resources that you would like. You can attempt this using any tec
 From the CSV, you will see that the data follows a parent child structure. The first entry is always at the top of the tree, with the following entries being children of the previous column. The example below shows the structure that we would like to see.
 
 ```
-[
+[  
   {
     "label": "Meat & Fish",
     "id": "179549",
@@ -44,7 +44,7 @@ From the CSV, you will see that the data follows a parent child structure. The f
                 "id": "176979",
                 "link": "https://groceries.morrisons.com/browse/179549/176741/176780/176979",
                 "children": []
-              },
+              }
             ]
           }
         ]
