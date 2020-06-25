@@ -17,42 +17,39 @@ Use any IDE or resources that you would like. You can attempt this using any tec
 From the CSV, you will see that the data follows a parent child structure. The first entry is always at the top of the tree, with the following entries being children of the previous column. The example below shows the structure that we would like to see.
 
 ```
-[  
-  {
-    "label": "Meat & Fish",
-    "id": "179549",
-    "link": "https://groceries.morrisons.com/browse/179549",
-    "children": [
-      {
-        "label": "3 For £9.00 Meat & Poultry",
-        "id": "179545",
-        "link": "https://groceries.morrisons.com/browse/179549/179545",
-        "children": []
-      },
-      {
-        "label": "Fish",
-        "id": "176741",
-        "link": "https://groceries.morrisons.com/browse/179549/176741",
-        "children": [
-          {
-            "label": "Fish Counter",
-            "id": "176780",
-            "link": "https://groceries.morrisons.com/browse/179549/176741/176780",
-            "children": [
-              {
-                "label": "Salmon",
-                "id": "176979",
-                "link": "https://groceries.morrisons.com/browse/179549/176741/176780/176979",
-                "children": []
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  }
-]
-
+{
+  "label": "Meat & Fish",
+  "id": "179549",
+  "link": "https://groceries.morrisons.com/browse/179549",
+  "children": [
+    {
+      "label": "3 For £9.00 Meat & Poultry",
+      "id": "179545",
+      "link": "https://groceries.morrisons.com/browse/179549/179545",
+      "children": []
+    },
+    {
+      "label": "Fish",
+      "id": "176741",
+      "link": "https://groceries.morrisons.com/browse/179549/176741",
+      "children": [
+        {
+          "label": "Fish Counter",
+          "id": "176780",
+          "link": "https://groceries.morrisons.com/browse/179549/176741/176780",
+          "children": [
+            {
+              "label": "Salmon",
+              "id": "176979",
+              "link": "https://groceries.morrisons.com/browse/179549/176741/176780/176979",
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
 ```
 ## Tasks
 The task is to convert the provided CSV into JSON (see the example for the structure desired). Examples of the structure we apply for JSON to generate these menus can be found on the main groceries pages on groceries.morrisons.com (hover over shop groceries and have a look through the different categories). The menus on these category pages follow a specific structure with nested child pages to allow customers to browse different categories of groceries.
